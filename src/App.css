@@ -1,0 +1,290 @@
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.news-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 50px 0 10px 170px;
+}
+
+.news-menu-link {
+  color: #2975e7;
+}
+
+.news-selected {
+  font-weight: bold;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #afafaf;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 140px;
+}
+
+.news {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.news-icon {
+  font-size: 20px;
+}
+
+.news-link {
+  color: #000;
+}
+
+.news-rate {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0 0 170px;
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.rate-currency {
+  font-weight: bold;
+}
+
+.rate-change, .rate-more {
+  color: #afafaf;
+}
+
+.own-adwisering {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.own-adwisering-image-containeer {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.own-adwisering-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.own-adwisering-title {
+  color: #2975e7;
+  font-weight: bold;
+}
+
+.own-adwisering-text {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.search-logo-container {
+  width: 150px;
+  height: 80px;
+}
+
+.search-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.search_menu-container {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.search_menu-link {
+  color: #2975e7;
+}
+
+.search_bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 900px;
+  height: 30px;
+  padding: 3px;
+  background-color: #f1cd55;
+  margin: 10px 0;
+}
+
+.search_bar {
+  position: relative;
+  height: inherit;
+  flex-grow: 1;
+}
+
+.search_bar-input {
+  height: inherit;
+  width: 100%;
+  padding: 0;
+  padding-left: 5px;
+  margin: 0;
+  border: none;
+}
+
+.search_bar-input:focus {
+  outline: none;
+}
+
+.search_bar-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #afafaf;
+}
+
+.search_bar-button {
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.search_bar-arrow {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  right: -26px;
+}
+
+.top {
+  top: -5px;
+  transform: rotate(60deg);
+}
+
+.bottom {
+  top: 25px;
+  transform: rotate(300deg);
+}
+
+.search-example {
+  color: #afafaf;
+}
+
+.someone-adwisering-container {
+  height: 100px;
+  width: 820px;
+  border: 1px solid #000;
+  margin: 0 0 30px 170px;
+}
+
+.someone-adwisering-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.services-container {
+  margin-left: 170px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.service {
+  max-width: 320px;
+  font-size: 14px;
+}
+
+.service-title {
+  color: #2975e7;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.weather-service {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-current {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.weather-icon {
+  font-size: 40px;
+}
+
+.weather-today {
+  line-height: 10px;
+}
+
+.visited-title {
+  font-weight: bold;
+}
+
+.TVProgramm-channel {
+  color: #afafaf;
+}
+
+.broadcast-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin: 8px 0;
+}
+
+.broadcast-icon {
+  font-size: 20px;
+}
+
+.broadcast-channel {
+  color: #afafaf;
+}
